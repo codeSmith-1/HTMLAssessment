@@ -1,0 +1,28 @@
+.font40:hover {
+  font-kerning: normal;
+}
+
+
+#header2 {
+  color: #29c2d4;
+}
+
+#list1.active {
+  font-weight: bold;
+}
+
+#list2:hover {
+  font-family: cursive;
+}
+
+ul.list1:active {
+  text-transform: uppercase;
+}
+
+.font40::first-letter {
+   font-size: x-large;
+}
+
+p.font40::after{
+  content: "I just popped up"
+}
