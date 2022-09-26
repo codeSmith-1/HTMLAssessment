@@ -8,15 +8,16 @@ table {
   text-align: center;
 }
 
-td:nth-child(1) {
-background-color: none; !}
-
 td:nth-child(even) {
   background-color: CadetBlue;
   color: white;
 }
 td:nth-child(odd) {
   background-color: BlanchedAlmond;
+}
+
+td:nth-child(1) {
+  background: none;
 }
 
 blockquote {
@@ -49,7 +50,7 @@ ol > :first-of-type {
 }
 
 ul#checkbox-grid {
-  list-style-type: non
+  list-style-type: none;
 }
 
 img {
